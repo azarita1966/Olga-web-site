@@ -1,20 +1,20 @@
-# Блог от Лизы
+# Lisa's Blog
 
-Блог на Django, серверная часть.
+An example of a blog written in Django, server side.
 
-## Запуск
+## Launch the project
 
-Для запуска блога у вас уже должен быть установлен Python 3.
+Pytho3 should be already installed.
 
-- Скачайте код
-- Установите зависимости командой `pip install -r requirements.txt`
-- Запустите сервер командой `python3 manage.py runserver`
+- Fork the repo.
+- Install dependencies with `pip install -r requirements.txt`
+- Launch the web-server: `python3 manage.py runserver`
 
-После этого переходите по ссылке [127.0.0.1:8000](http://127.0.0.1:8000), вы увидите главную страницу.
+To launch the home page open the browser and type: http://127.0.0.1:8000.
 
-## Переменные окружения
+## Environments
 
-Часть настроек проекта берётся из переменных окружения. Чтобы их определить, создайте файл `.env` рядом с `manage.py` и запишите туда данные в таком формате: `ПЕРЕМЕННАЯ=значение`.
+Some of the project configuration is downloaded from the environment variables. Create file `.env` in the same directory ad `manage.py` and create key = value pairs`VARIABLE=value`.
 
 **Для запуска проекта эти настройки не требуются**, значения уже проставлены по умолчанию.
 
